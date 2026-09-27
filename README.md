@@ -33,6 +33,7 @@ The dataset is created directly inside the Python program, so no separate datase
 ## Technologies and Libraries
 
 - Python
+- Google Colab
 - NumPy
 - Pandas
 - Matplotlib
@@ -56,23 +57,15 @@ The program performs the following steps:
 
 ## How to Run
 
-Install the required libraries using:
+The program was developed and tested using Google Colab.
 
-```bash
-pip install -r requirements.txt
-```
+1. Open Google Colab.
+2. Upload or paste `regression_model.py` into a notebook.
+3. Install the required libraries if needed.
+4. Run the program.
+5. Enter the learning rate, number of iterations and new house area when prompted.
 
-Run the program using:
-
-```bash
-python regression_model.py
-```
-
-The program will ask for:
-
-- Learning rate
-- Number of iterations
-- New house area in square feet
+The required Python libraries are listed in `requirements.txt`.
 
 ## Model Evaluation
 
